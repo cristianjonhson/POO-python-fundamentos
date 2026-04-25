@@ -1,0 +1,9 @@
+[project]
+name = "oop-python-fundamentals"
+version = "1.0.0"
+description = "Proyecto educativo sobre fundamentos de Programación Orientada a Objetos en Python"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
