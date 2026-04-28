@@ -3,6 +3,9 @@ class BankAccount:
 
     def __init__(self, owner: str, initial_balance: float = 0):
         self.owner = owner
+        if initial_balance < 0:
+            raise ValueError("El saldo inicial no puede ser negativo")
+
         self.__balance = initial_balance
 
     def deposit(self, amount: float) -> None:
