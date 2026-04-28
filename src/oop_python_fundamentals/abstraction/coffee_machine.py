@@ -11,7 +11,7 @@ class CoffeeMachine:
         print("Calentando agua")
 
     def __grind_coffee(self) -> None:
-        print("Moliento café")
+        print("Moliendo café")
 
     def __serve_coffee(self) -> None:
         print("Sirviendo café")
