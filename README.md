@@ -2,6 +2,8 @@
 
 Proyecto educativo para estudiar los fundamentos de POO en Python.
 
+Incluye ejemplos guiados, ejercicios prácticos y pruebas automatizadas para reforzar cada concepto.
+
 ## Objetivo
 
 Este repositorio contiene ejemplos simples, ordenados por tema, para comprender:
@@ -40,7 +42,28 @@ oop-python-fundamentos/
 ├── examples/
 ├── exercises/
 ├── tests/
+│   ├── test_animals.py
+│   ├── test_bank_account.py
+│   ├── test_car.py
+│   ├── test_coffee_machine.py
+│   ├── test_payment_methods.py
+│   ├── test_person.py
+│   └── test_product.py
 └── docs/
+```
+
+## Requisitos
+
+- Python 3.10 o superior
+
+## Configuración del entorno
+
+Desde la raíz del proyecto:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
 ## Cómo ejecutar el proyecto
@@ -61,29 +84,32 @@ python examples/run_all_examples.py
 
 ## Cómo ejecutar tests
 
-Instala dependencias:
+Con el entorno virtual activo:
 
 ```bash
-pip install -r requirements.txt
+python -m pytest -q
 ```
 
-Ejecuta los tests:
+Actualmente la suite incluye pruebas para:
 
-```bash
-pytest
-```
+- Básicos (`Car`, `Person`)
+- Encapsulamiento (`BankAccount`)
+- Herencia (`Animal`, `Dog`, `Cat`)
+- Polimorfismo (`PaymentMethod` y subclases)
+- Abstracción (`CoffeeMachine`)
+- Métodos especiales (`Product`)
 
 ## Recomendación para estudiantes
 
 Estudia los archivos en este orden:
 
-1. `basics/car.py`
-2. `basics/person.py`
-3. `encapsulation/bank_account.py`
-4. `inheritance/animals.py`
-5. `polymorphism/payment_methods.py`
-6. `abstraction/coffee_machine.py`
-7. `composition/computer.py`
-8. `dunder_methods/product.py`
+1. `src/oop_python_fundamentals/basics/car.py`
+2. `src/oop_python_fundamentals/basics/person.py`
+3. `src/oop_python_fundamentals/encapsulation/bank_account.py`
+4. `src/oop_python_fundamentals/inheritance/animals.py`
+5. `src/oop_python_fundamentals/polymorphism/payment_methods.py`
+6. `src/oop_python_fundamentals/abstraction/coffee_machine.py`
+7. `src/oop_python_fundamentals/composition/computer.py`
+8. `src/oop_python_fundamentals/dunder_methods/product.py`
 
 Luego resuelve los ejercicios de la carpeta `exercises/`.
