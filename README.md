@@ -4,6 +4,21 @@ Proyecto educativo para estudiar los fundamentos de POO en Python.
 
 Incluye ejemplos guiados, ejercicios prácticos y pruebas automatizadas para reforzar cada concepto.
 
+## Comandos rápidos
+
+```bash
+# Setup
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+
+# Tests
+python -m pytest -q
+
+# Cobertura (por módulo)
+python -m pytest --cov=oop_python_fundamentals --cov-report=term-missing -q
+```
+
 ## Objetivo
 
 Este repositorio contiene ejemplos simples, ordenados por tema, para comprender:
