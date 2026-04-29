@@ -61,9 +61,11 @@ oop-python-fundamentos/
 │   ├── test_bank_account.py
 │   ├── test_car.py
 │   ├── test_coffee_machine.py
+│   ├── test_computer.py
 │   ├── test_payment_methods.py
 │   ├── test_person.py
-│   └── test_product.py
+│   ├── test_product.py
+│   └── test_students.py
 └── docs/
 ```
 
@@ -127,9 +129,10 @@ Actualmente la suite incluye pruebas para:
 
 - Básicos (`Car`, `Person`)
 - Encapsulamiento (`BankAccount`)
-- Herencia (`Animal`, `Dog`, `Cat`)
+- Herencia (`Animal`, `Dog`, `Cat`, `Student`)
 - Polimorfismo (`PaymentMethod` y subclases)
 - Abstracción (`CoffeeMachine`)
+- Composición (`Computer`, `Processor`, `Memory`)
 - Métodos especiales (`Product`)
 
 ## Recomendación para estudiantes
