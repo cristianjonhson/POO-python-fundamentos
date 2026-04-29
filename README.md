@@ -65,6 +65,7 @@ oop-python-fundamentos/
 │   ├── test_payment_methods.py
 │   ├── test_person.py
 │   ├── test_product.py
+│   ├── test_product_with_property.py
 │   └── test_students.py
 └── docs/
 ```
@@ -128,7 +129,7 @@ El reporte se genera en la carpeta `htmlcov/`.
 Actualmente la suite incluye pruebas para:
 
 - Básicos (`Car`, `Person`)
-- Encapsulamiento (`BankAccount`)
+- Encapsulamiento (`BankAccount`, `ProductWithProperty`)
 - Herencia (`Animal`, `Dog`, `Cat`, `Student`)
 - Polimorfismo (`PaymentMethod` y subclases)
 - Abstracción (`CoffeeMachine`)
