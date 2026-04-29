@@ -90,6 +90,24 @@ Con el entorno virtual activo:
 python -m pytest -q
 ```
 
+## Cómo medir cobertura
+
+Este proyecto usa `pytest-cov` para reportar cobertura de forma numérica por módulo.
+
+Ejecuta:
+
+```bash
+python -m pytest --cov=oop_python_fundamentals --cov-report=term-missing -q
+```
+
+Si quieres un reporte HTML navegable:
+
+```bash
+python -m pytest --cov=oop_python_fundamentals --cov-report=html -q
+```
+
+El reporte se genera en la carpeta `htmlcov/`.
+
 Actualmente la suite incluye pruebas para:
 
 - Básicos (`Car`, `Person`)
