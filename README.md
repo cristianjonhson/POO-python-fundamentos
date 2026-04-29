@@ -7,12 +7,12 @@ Incluye ejemplos guiados, ejercicios prácticos y pruebas automatizadas para ref
 ## Comandos rápidos
 
 ```bash
-# Setup
+# Configuración
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
 
-# Tests
+# Pruebas
 python -m pytest -q
 
 # Cobertura (por módulo)
@@ -34,7 +34,7 @@ Este repositorio contiene ejemplos simples, ordenados por tema, para comprender:
 - Polimorfismo
 - Abstracción
 - Composición
-- Métodos especiales o dunder methods
+- Métodos especiales (dunder)
 
 ## Estructura del proyecto
 
@@ -100,7 +100,7 @@ También puedes ejecutar ejemplos específicos desde sus propios archivos.
 python examples/run_all_examples.py
 ```
 
-## Cómo ejecutar tests
+## Cómo ejecutar pruebas
 
 Con el entorno virtual activo:
 
@@ -108,7 +108,7 @@ Con el entorno virtual activo:
 python -m pytest -q
 ```
 
-## Cómo medir cobertura
+## Cómo medir la cobertura
 
 Este proyecto usa `pytest-cov` para reportar cobertura de forma numérica por módulo.
 
@@ -118,15 +118,15 @@ Ejecuta:
 python -m pytest --cov=oop_python_fundamentals --cov-report=term-missing -q
 ```
 
-Si quieres un reporte HTML navegable:
+Si quieres un informe HTML navegable:
 
 ```bash
 python -m pytest --cov=oop_python_fundamentals --cov-report=html -q
 ```
 
-El reporte se genera en la carpeta `htmlcov/`.
+El informe se genera en la carpeta `htmlcov/`.
 
-Actualmente la suite incluye pruebas para:
+Actualmente el conjunto de pruebas incluye:
 
 - Básicos (`Car`, `Person`)
 - Encapsulamiento (`BankAccount`, `ProductWithProperty`)
