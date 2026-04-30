@@ -16,7 +16,7 @@ python -m pip install -r requirements.txt
 python -m pytest -q
 
 # Cobertura (por módulo)
-python -m pytest --cov=oop_python_fundamentals --cov-report=term-missing -q
+python -m pytest --cov=oop_python_fundamentos --cov-report=term-missing -q
 ```
 
 ## Objetivo
@@ -46,7 +46,7 @@ oop-python-fundamentos/
 ├── README.md
 ├── .gitignore
 ├── src/
-│   └── oop_python_fundamentals/
+│   └── oop_python_fundamentos/
 │       ├── basics/
 │       ├── encapsulation/
 │       ├── inheritance/
@@ -115,13 +115,13 @@ Este proyecto usa `pytest-cov` para reportar cobertura de forma numérica por m�
 Ejecuta:
 
 ```bash
-python -m pytest --cov=oop_python_fundamentals --cov-report=term-missing -q
+python -m pytest --cov=oop_python_fundamentos --cov-report=term-missing -q
 ```
 
 Si quieres un informe HTML navegable:
 
 ```bash
-python -m pytest --cov=oop_python_fundamentals --cov-report=html -q
+python -m pytest --cov=oop_python_fundamentos --cov-report=html -q
 ```
 
 El informe se genera en la carpeta `htmlcov/`.
@@ -140,13 +140,13 @@ Actualmente el conjunto de pruebas incluye:
 
 Estudia los archivos en este orden:
 
-1. `src/oop_python_fundamentals/basics/car.py`
-2. `src/oop_python_fundamentals/basics/person.py`
-3. `src/oop_python_fundamentals/encapsulation/bank_account.py`
-4. `src/oop_python_fundamentals/inheritance/animals.py`
-5. `src/oop_python_fundamentals/polymorphism/payment_methods.py`
-6. `src/oop_python_fundamentals/abstraction/coffee_machine.py`
-7. `src/oop_python_fundamentals/composition/computer.py`
-8. `src/oop_python_fundamentals/dunder_methods/product.py`
+1. `src/oop_python_fundamentos/basics/car.py`
+2. `src/oop_python_fundamentos/basics/person.py`
+3. `src/oop_python_fundamentos/encapsulation/bank_account.py`
+4. `src/oop_python_fundamentos/inheritance/animals.py`
+5. `src/oop_python_fundamentos/polymorphism/payment_methods.py`
+6. `src/oop_python_fundamentos/abstraction/coffee_machine.py`
+7. `src/oop_python_fundamentos/composition/computer.py`
+8. `src/oop_python_fundamentos/dunder_methods/product.py`
 
 Luego resuelve los ejercicios de la carpeta `exercises/`.
