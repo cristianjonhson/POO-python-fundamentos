@@ -1,4 +1,4 @@
-from oop_python_fundamentals.basics.car import Car
+from oop_python_fundamentos.basics.car import Car
 
 
 def test_car_attributes():
