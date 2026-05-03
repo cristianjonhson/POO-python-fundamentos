@@ -1,4 +1,4 @@
-from oop_python_fundamentals.basics.person import Person
+from oop_python_fundamentos.basics.person import Person
 
 
 def test_person_attributes():
