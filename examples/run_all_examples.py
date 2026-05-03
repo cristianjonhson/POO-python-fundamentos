@@ -5,18 +5,18 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 SRC_DIR = ROOT_DIR / "src"
 sys.path.insert(0, str(SRC_DIR))
 
-from oop_python_fundamentos.basics.car import Car
-from oop_python_fundamentos.basics.person import Person
-from oop_python_fundamentos.encapsulation.bank_account import BankAccount
-from oop_python_fundamentos.inheritance.animals import Dog, Cat
-from oop_python_fundamentos.polymorphism.payment_methods import (
+from oop_python_fundamentos.basicos.car import Car
+from oop_python_fundamentos.basicos.person import Person
+from oop_python_fundamentos.encapsulamiento.bank_account import BankAccount
+from oop_python_fundamentos.herencia.animals import Dog, Cat
+from oop_python_fundamentos.polimorfismo.payment_methods import (
     CreditCardPayment,
     PayPalPayment,
     BankTransferPayment,
 )
-from oop_python_fundamentos.abstraction.coffee_machine import CoffeeMachine
-from oop_python_fundamentos.composition.computer import Computer
-from oop_python_fundamentos.dunder_methods.product import Product
+from oop_python_fundamentos.abstraccion.coffee_machine import CoffeeMachine
+from oop_python_fundamentos.composicion.computer import Computer
+from oop_python_fundamentos.metodos_especiales.product import Product
 
 
 def run_all_examples():
