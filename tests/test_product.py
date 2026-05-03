@@ -1,4 +1,4 @@
-from oop_python_fundamentals.dunder_methods.product import Product
+from oop_python_fundamentos.dunder_methods.product import Product
 
 
 def test_product_equality():
