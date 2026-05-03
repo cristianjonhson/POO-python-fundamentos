@@ -1,6 +1,6 @@
 import pytest
 
-from oop_python_fundamentals.encapsulation.product_with_property import ProductWithProperty
+from oop_python_fundamentos.encapsulation.product_with_property import ProductWithProperty
 
 
 def test_product_with_property_initializes_price():
