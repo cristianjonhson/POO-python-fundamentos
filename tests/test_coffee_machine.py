@@ -1,4 +1,4 @@
-from oop_python_fundamentals.abstraction.coffee_machine import CoffeeMachine
+from oop_python_fundamentos.abstraction.coffee_machine import CoffeeMachine
 
 
 def test_make_coffee_runs_internal_steps_in_order(capsys):
