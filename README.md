@@ -47,13 +47,13 @@ oop-python-fundamentos/
 ├── .gitignore
 ├── src/
 │   └── oop_python_fundamentos/
-│       ├── basics/
-│       ├── encapsulation/
-│       ├── inheritance/
-│       ├── polymorphism/
-│       ├── abstraction/
-│       ├── composition/
-│       └── dunder_methods/
+│       ├── basicos/
+│       ├── encapsulamiento/
+│       ├── herencia/
+│       ├── polimorfismo/
+│       ├── abstraccion/
+│       ├── composicion/
+│       └── metodos_especiales/
 ├── examples/
 ├── exercises/
 ├── tests/
@@ -140,13 +140,13 @@ Actualmente el conjunto de pruebas incluye:
 
 Estudia los archivos en este orden:
 
-1. `src/oop_python_fundamentos/basics/car.py`
-2. `src/oop_python_fundamentos/basics/person.py`
-3. `src/oop_python_fundamentos/encapsulation/bank_account.py`
-4. `src/oop_python_fundamentos/inheritance/animals.py`
-5. `src/oop_python_fundamentos/polymorphism/payment_methods.py`
-6. `src/oop_python_fundamentos/abstraction/coffee_machine.py`
-7. `src/oop_python_fundamentos/composition/computer.py`
-8. `src/oop_python_fundamentos/dunder_methods/product.py`
+1. `src/oop_python_fundamentos/basicos/car.py`
+2. `src/oop_python_fundamentos/basicos/person.py`
+3. `src/oop_python_fundamentos/encapsulamiento/bank_account.py`
+4. `src/oop_python_fundamentos/herencia/animals.py`
+5. `src/oop_python_fundamentos/polimorfismo/payment_methods.py`
+6. `src/oop_python_fundamentos/abstraccion/coffee_machine.py`
+7. `src/oop_python_fundamentos/composicion/computer.py`
+8. `src/oop_python_fundamentos/metodos_especiales/product.py`
 
 Luego resuelve los ejercicios de la carpeta `exercises/`.
