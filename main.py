@@ -1,3 +1,5 @@
+"""Punto de entrada que recorre los ejemplos principales del proyecto."""
+
 from pathlib import Path
 import sys
 
