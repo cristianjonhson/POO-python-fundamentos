@@ -1,4 +1,4 @@
-from oop_python_fundamentos.composition.computer import Computer, Processor, Memory
+from oop_python_fundamentos.composicion.computer import Computer, Processor, Memory
 
 
 def test_computer_builds_composed_objects():
