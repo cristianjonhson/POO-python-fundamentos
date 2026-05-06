@@ -1,6 +1,6 @@
 import pytest
 
-from oop_python_fundamentos.encapsulation.bank_account import BankAccount
+from oop_python_fundamentos.encapsulamiento.bank_account import BankAccount
 
 
 def test_deposit_increases_balance():
