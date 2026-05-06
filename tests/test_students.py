@@ -1,4 +1,4 @@
-from oop_python_fundamentos.inheritance.students import Person, Student
+from oop_python_fundamentos.herencia.students import Person, Student
 
 
 def test_student_inherits_person_and_sets_attributes():
