@@ -1,4 +1,4 @@
-from oop_python_fundamentos.inheritance.animals import Animal, Dog, Cat
+from oop_python_fundamentos.herencia.animals import Animal, Dog, Cat
 
 
 def test_dog_and_cat_are_animals():
