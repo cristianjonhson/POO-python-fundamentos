@@ -1,4 +1,4 @@
-from oop_python_fundamentos.polymorphism.payment_methods import (
+from oop_python_fundamentos.polimorfismo.payment_methods import (
     CreditCardPayment,
     PayPalPayment,
     BankTransferPayment,
