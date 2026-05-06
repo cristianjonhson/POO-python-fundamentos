@@ -1,3 +1,5 @@
+"""Script auxiliar para ejecutar todos los ejemplos educativos en secuencia."""
+
 from pathlib import Path
 import sys
 
