@@ -1,3 +1,5 @@
+"""Ejemplo de abstracción que oculta los pasos internos de una cafetera."""
+
 class CoffeeMachine:
     """Clase para explicar abstracción ocultando pasos internos."""
 
