@@ -1,3 +1,5 @@
+"""Ejemplo de composición donde una computadora contiene otras piezas."""
+
 class Processor:
     """Clase que representa un procesador."""
 
