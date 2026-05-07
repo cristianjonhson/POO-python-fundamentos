@@ -1,3 +1,5 @@
+"""Modelo simple de auto para introducir atributos y métodos."""
+
 class Car:
     """Clase básica para explicar clase, objeto, atributos, métodos, __init__ y self."""
 
