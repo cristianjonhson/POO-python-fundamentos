@@ -1,3 +1,5 @@
+"""Producto que usa propiedades para validar el acceso a su precio."""
+
 class ProductWithProperty:
     """Clase para explicar el uso de @property y setters."""
 
