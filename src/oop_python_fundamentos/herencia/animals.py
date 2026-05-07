@@ -1,3 +1,5 @@
+"""Jerarquía de animales para mostrar herencia y sobreescritura."""
+
 class Animal:
     """Clase padre para explicar herencia."""
 
