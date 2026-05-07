@@ -1,3 +1,5 @@
+"""Modelo sencillo de persona para practicar creación de objetos."""
+
 class Person:
     """Clase simple para representar una persona."""
 
