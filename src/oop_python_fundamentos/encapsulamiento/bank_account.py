@@ -1,3 +1,5 @@
+"""Cuenta bancaria simple para practicar estado privado y validaciones."""
+
 class BankAccount:
     """Clase para explicar encapsulamiento usando un atributo privado."""
 
