@@ -2,7 +2,7 @@
 
 Proyecto educativo para estudiar los fundamentos de POO en Python.
 
-Incluye ejemplos guiados, ejercicios prácticos y pruebas automatizadas para reforzar cada concepto.
+Incluye ejemplos guiados, ejercicios prácticos, comentarios explicativos en los módulos y pruebas automatizadas para reforzar cada concepto.
 
 ## Comandos rápidos
 
