@@ -1,3 +1,5 @@
+"""Ejemplo de herencia entre una persona base y un estudiante."""
+
 class Person:
     """Clase padre."""
 
