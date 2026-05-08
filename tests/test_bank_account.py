@@ -1,3 +1,5 @@
+"""Pruebas para validar operaciones y reglas de negocio de BankAccount."""
+
 import pytest
 
 from oop_python_fundamentos.encapsulamiento.bank_account import BankAccount
