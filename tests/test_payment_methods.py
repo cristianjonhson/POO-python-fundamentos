@@ -1,3 +1,5 @@
+"""Pruebas para asegurar el comportamiento polimórfico de los pagos."""
+
 from oop_python_fundamentos.polimorfismo.payment_methods import (
     CreditCardPayment,
     PayPalPayment,
