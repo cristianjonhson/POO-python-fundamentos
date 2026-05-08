@@ -1,6 +1,6 @@
 # Fundamentos de Programación Orientada a Objetos en Python
 
-Proyecto educativo para estudiar los fundamentos de POO en Python.
+Este proyecto educativo está diseñado para aprender los fundamentos de POO en Python de forma progresiva.
 
 Incluye ejemplos guiados, ejercicios prácticos, comentarios explicativos en los módulos y pruebas automatizadas para reforzar cada concepto.
 
@@ -21,7 +21,7 @@ python -m pytest --cov=oop_python_fundamentos --cov-report=term-missing -q
 
 ## Objetivo
 
-Este repositorio contiene ejemplos simples, ordenados por tema, para comprender:
+En este repositorio encontrarás ejemplos simples, organizados por tema, para comprender:
 
 - Clases
 - Objetos
@@ -101,7 +101,7 @@ oop-python-fundamentos/
 
 ## Configuración del entorno
 
-Desde la raíz del proyecto:
+Ejecuta estos comandos desde la raíz del proyecto:
 
 ```bash
 python -m venv .venv
@@ -111,13 +111,13 @@ python -m pip install -r requirements.txt
 
 ## Cómo ejecutar el proyecto
 
-Desde la raíz del proyecto:
+Ejecuta el proyecto desde la raíz con:
 
 ```bash
 python main.py
 ```
 
-También puedes ejecutar ejemplos específicos desde sus propios archivos.
+También puedes ejecutar ejemplos específicos desde sus propios archivos para practicar cada tema por separado.
 
 ## Cómo ejecutar ejemplos individuales
 
@@ -127,7 +127,7 @@ python examples/run_all_examples.py
 
 ## Cómo ejecutar pruebas
 
-Con el entorno virtual activo:
+Con el entorno virtual activo, ejecuta:
 
 ```bash
 python -m pytest -q
@@ -135,15 +135,15 @@ python -m pytest -q
 
 ## Cómo medir la cobertura
 
-Este proyecto usa `pytest-cov` para reportar cobertura de forma numérica por módulo.
+Este proyecto usa `pytest-cov` para reportar cobertura numérica por módulo.
 
-Ejecuta:
+Para ver cobertura en consola, ejecuta:
 
 ```bash
 python -m pytest --cov=oop_python_fundamentos --cov-report=term-missing -q
 ```
 
-Si quieres un informe HTML navegable:
+Si quieres un informe HTML navegable, ejecuta:
 
 ```bash
 python -m pytest --cov=oop_python_fundamentos --cov-report=html -q
@@ -151,7 +151,7 @@ python -m pytest --cov=oop_python_fundamentos --cov-report=html -q
 
 El informe se genera en la carpeta `htmlcov/`.
 
-Actualmente el conjunto de pruebas incluye:
+Actualmente, el conjunto de pruebas cubre:
 
 - Básicos (`Car`, `Person`)
 - Encapsulamiento (`BankAccount`, `ProductWithProperty`)
@@ -163,7 +163,7 @@ Actualmente el conjunto de pruebas incluye:
 
 ## Recomendación para estudiantes
 
-Estudia los archivos en este orden:
+Para estudiar el contenido de forma progresiva, revisa los archivos en este orden:
 
 1. `src/oop_python_fundamentos/basicos/car.py`
 2. `src/oop_python_fundamentos/basicos/person.py`
@@ -174,4 +174,4 @@ Estudia los archivos en este orden:
 7. `src/oop_python_fundamentos/composicion/computer.py`
 8. `src/oop_python_fundamentos/metodos_especiales/product.py`
 
-Luego resuelve los ejercicios de la carpeta `exercises/`.
+Después, resuelve los ejercicios de la carpeta `exercises/`.
