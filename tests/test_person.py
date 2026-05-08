@@ -1,3 +1,5 @@
+"""Pruebas mínimas para validar atributos del modelo Person."""
+
 from oop_python_fundamentos.basicos.person import Person
 
 
