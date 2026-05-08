@@ -1,3 +1,5 @@
+"""Pruebas para comprobar la composición interna de Computer."""
+
 from oop_python_fundamentos.composicion.computer import Computer, Processor, Memory
 
 
