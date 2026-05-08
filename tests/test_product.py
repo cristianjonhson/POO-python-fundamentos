@@ -1,3 +1,5 @@
+"""Pruebas para representación y comparación del modelo Product."""
+
 from oop_python_fundamentos.metodos_especiales.product import Product
 
 
