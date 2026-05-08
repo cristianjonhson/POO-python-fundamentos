@@ -1,3 +1,5 @@
+"""Pruebas para la validación del precio mediante propiedades."""
+
 import pytest
 
 from oop_python_fundamentos.encapsulamiento.product_with_property import ProductWithProperty
