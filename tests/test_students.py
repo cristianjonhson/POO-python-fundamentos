@@ -1,3 +1,5 @@
+"""Pruebas para validar la herencia y salida del modelo Student."""
+
 from oop_python_fundamentos.herencia.students import Person, Student
 
 
