@@ -1,3 +1,5 @@
+"""Producto que demuestra cómo personalizar representación y comparación."""
+
 class Product:
     """Clase para explicar métodos especiales como __str__ y __eq__."""
 
