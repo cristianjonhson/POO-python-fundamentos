@@ -45,18 +45,44 @@ oop-python-fundamentos/
 ├── pyproject.toml
 ├── README.md
 ├── .gitignore
+├── docs/
+│   └── study_guide.md
+├── examples/
+│   └── run_all_examples.py
+├── exercises/
+│   ├── exercise_01_person.py
+│   ├── exercise_02_car.py
+│   ├── exercise_03_bank_account.py
+│   ├── exercise_04_inheritance.py
+│   └── exercise_05_product.py
 ├── src/
 │   └── oop_python_fundamentos/
-│       ├── basicos/
-│       ├── encapsulamiento/
-│       ├── herencia/
-│       ├── polimorfismo/
+│       ├── __init__.py
 │       ├── abstraccion/
+│       │   ├── __init__.py
+│       │   └── coffee_machine.py
+│       ├── basicos/
+│       │   ├── __init__.py
+│       │   ├── car.py
+│       │   └── person.py
 │       ├── composicion/
-│       └── metodos_especiales/
-├── examples/
-├── exercises/
-├── tests/
+│       │   ├── __init__.py
+│       │   └── computer.py
+│       ├── encapsulamiento/
+│       │   ├── __init__.py
+│       │   ├── bank_account.py
+│       │   └── product_with_property.py
+│       ├── herencia/
+│       │   ├── __init__.py
+│       │   ├── animals.py
+│       │   └── students.py
+│       ├── metodos_especiales/
+│       │   ├── __init__.py
+│       │   └── product.py
+│       └── polimorfismo/
+│       │   ├── __init__.py
+│       │   └── payment_methods.py
+└── tests/
 │   ├── test_animals.py
 │   ├── test_bank_account.py
 │   ├── test_car.py
@@ -67,7 +93,6 @@ oop-python-fundamentos/
 │   ├── test_product.py
 │   ├── test_product_with_property.py
 │   └── test_students.py
-└── docs/
 ```
 
 ## Requisitos
