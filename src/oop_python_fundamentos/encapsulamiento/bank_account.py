@@ -10,25 +10,22 @@ class BankAccount:
 
         self.__balance = initial_balance
 
-    def deposit(self, amount: float) -> None:
+    def deposit(self, amount: float) -> str:
         if amount <= 0:
-            print("El depósito debe ser mayor a cero")
-            return
+            return "El depósito debe ser mayor a cero"
 
         self.__balance += amount
-        print(f"Depósito realizado: {amount}")
+        return f"Depósito realizado: {amount}"
 
-    def withdraw(self, amount: float) -> None:
+    def withdraw(self, amount: float) -> str:
         if amount <= 0:
-            print("El retiro debe ser mayor a cero")
-            return
+            return "El retiro debe ser mayor a cero"
 
         if amount > self.__balance:
-            print("Saldo insuficiente")
-            return
+            return "Saldo insuficiente"
 
         self.__balance -= amount
-        print(f"Retiro realizado: {amount}")
+        return f"Retiro realizado: {amount}"
 
     def get_balance(self) -> float:
         return self.__balance
@@ -36,6 +33,6 @@ class BankAccount:
 
 if __name__ == "__main__":
     account = BankAccount("Cristian", 1000)
-    account.deposit(500)
-    account.withdraw(300)
+    print(account.deposit(500))
+    print(account.withdraw(300))
     print(account.get_balance())
