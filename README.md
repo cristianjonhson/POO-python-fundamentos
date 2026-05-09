@@ -122,7 +122,7 @@ También puedes ejecutar ejemplos específicos desde sus propios archivos para p
 ## Cómo ejecutar ejemplos individuales
 
 ```bash
-python examples/run_all_examples.py
+python -m examples.run_all_examples
 ```
 
 ## Cómo ejecutar pruebas
