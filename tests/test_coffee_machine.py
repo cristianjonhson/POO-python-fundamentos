@@ -3,13 +3,10 @@
 from oop_python_fundamentos.abstraccion.coffee_machine import CoffeeMachine
 
 
-def test_make_coffee_runs_internal_steps_in_order(capsys):
+def test_make_coffee_runs_internal_steps_in_order():
     machine = CoffeeMachine()
 
-    machine.make_coffee()
-
-    captured = capsys.readouterr()
-    output_lines = captured.out.strip().splitlines()
+    output_lines = machine.make_coffee()
 
     assert output_lines == [
         "Calentando agua",
