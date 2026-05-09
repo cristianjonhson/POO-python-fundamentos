@@ -1,24 +1,17 @@
 """Script auxiliar para ejecutar todos los ejemplos educativos en secuencia."""
 
-from pathlib import Path
-import sys
-
-ROOT_DIR = Path(__file__).resolve().parents[1]
-SRC_DIR = ROOT_DIR / "src"
-sys.path.insert(0, str(SRC_DIR))
-
-from oop_python_fundamentos.basicos.car import Car
-from oop_python_fundamentos.basicos.person import Person
-from oop_python_fundamentos.encapsulamiento.bank_account import BankAccount
-from oop_python_fundamentos.herencia.animals import Dog, Cat
-from oop_python_fundamentos.polimorfismo.payment_methods import (
+from src.oop_python_fundamentos.basicos.car import Car
+from src.oop_python_fundamentos.basicos.person import Person
+from src.oop_python_fundamentos.encapsulamiento.bank_account import BankAccount
+from src.oop_python_fundamentos.herencia.animals import Dog, Cat
+from src.oop_python_fundamentos.polimorfismo.payment_methods import (
     CreditCardPayment,
     PayPalPayment,
     BankTransferPayment,
 )
-from oop_python_fundamentos.abstraccion.coffee_machine import CoffeeMachine
-from oop_python_fundamentos.composicion.computer import Computer
-from oop_python_fundamentos.metodos_especiales.product import Product
+from src.oop_python_fundamentos.abstraccion.coffee_machine import CoffeeMachine
+from src.oop_python_fundamentos.composicion.computer import Computer
+from src.oop_python_fundamentos.metodos_especiales.product import Product
 
 
 def run_all_examples():
