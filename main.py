@@ -23,8 +23,8 @@ def main():
 
     print("\n3. Encapsulamiento")
     account = BankAccount("Cristian", 1000)
-    account.deposit(500)
-    account.withdraw(300)
+    print(account.deposit(500))
+    print(account.withdraw(300))
     print(f"Saldo actual: {account.get_balance()}")
 
     print("\n4. Herencia")
@@ -42,7 +42,8 @@ def main():
 
     print("\n6. Abstracción")
     machine = CoffeeMachine()
-    machine.make_coffee()
+    for step in machine.make_coffee():
+        print(step)
 
     print("\n7. Composición")
     computer = Computer("Intel i7", "16 GB")
