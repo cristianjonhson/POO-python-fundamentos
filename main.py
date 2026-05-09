@@ -3,7 +3,7 @@
 from src.oop_python_fundamentos.basicos.car import Car
 from src.oop_python_fundamentos.basicos.person import Person
 from src.oop_python_fundamentos.encapsulamiento.bank_account import BankAccount
-from src.oop_python_fundamentos.herencia.animals import Dog, Cat
+from src.oop_python_fundamentos.herencia.students import Student
 from src.oop_python_fundamentos.polimorfismo.payment_methods import CreditCardPayment, PayPalPayment
 from src.oop_python_fundamentos.abstraccion.coffee_machine import CoffeeMachine
 from src.oop_python_fundamentos.composicion.computer import Computer
@@ -28,10 +28,8 @@ def main():
     print(f"Saldo actual: {account.get_balance()}")
 
     print("\n4. Herencia")
-    dog = Dog("Firulais")
-    cat = Cat("Michi")
-    dog.sound()
-    cat.sound()
+    student = Student("Ana", "Python")
+    student.show_info()
 
     print("\n5. Polimorfismo")
     payments = [
