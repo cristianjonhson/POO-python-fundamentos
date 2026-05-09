@@ -114,7 +114,7 @@ python -m pip install -r requirements.txt
 Ejecuta el proyecto desde la raíz con:
 
 ```bash
-python main.py
+python -m main
 ```
 
 También puedes ejecutar ejemplos específicos desde sus propios archivos para practicar cada tema por separado.
