@@ -17,6 +17,9 @@ python -m pytest -q
 
 # Cobertura (por módulo)
 python -m pytest --cov=oop_python_fundamentos --cov-report=term-missing -q
+
+# Lint
+ruff check .
 ```
 
 ## Objetivo
