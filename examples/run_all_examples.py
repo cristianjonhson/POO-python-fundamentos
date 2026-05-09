@@ -3,7 +3,7 @@
 from src.oop_python_fundamentos.basicos.car import Car
 from src.oop_python_fundamentos.basicos.person import Person
 from src.oop_python_fundamentos.encapsulamiento.bank_account import BankAccount
-from src.oop_python_fundamentos.herencia.animals import Dog, Cat
+from src.oop_python_fundamentos.herencia.students import Student
 from src.oop_python_fundamentos.polimorfismo.payment_methods import (
     CreditCardPayment,
     PayPalPayment,
@@ -27,9 +27,8 @@ def run_all_examples():
     account.deposit(100)
     print(f"Saldo actual: {account.get_balance()}")
 
-    animals = [Dog("Firulais"), Cat("Michi")]
-    for animal in animals:
-        animal.sound()
+    student = Student("Ana", "Python")
+    student.show_info()
 
     payments = [
         CreditCardPayment(10000),
