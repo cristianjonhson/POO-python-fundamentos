@@ -24,7 +24,7 @@ def run_all_examples():
     person.show_info()
 
     account = BankAccount("Cristian", 1000)
-    account.deposit(100)
+    print(account.deposit(100))
     print(f"Saldo actual: {account.get_balance()}")
 
     student = Student("Ana", "Python")
@@ -40,7 +40,8 @@ def run_all_examples():
         payment.pay()
 
     machine = CoffeeMachine()
-    machine.make_coffee()
+    for step in machine.make_coffee():
+        print(step)
 
     computer = Computer("Intel i7", "16 GB")
     computer.show_specs()
