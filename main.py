@@ -29,7 +29,8 @@ def main():
 
     print("\n4. Herencia")
     student = Student("Ana", "Python")
-    student.show_info()
+    for line in student.show_info():
+        print(line)
 
     print("\n5. Polimorfismo")
     payments = [
@@ -38,7 +39,7 @@ def main():
     ]
 
     for payment in payments:
-        payment.pay()
+        print(payment.pay())
 
     print("\n6. Abstracción")
     machine = CoffeeMachine()
@@ -47,7 +48,8 @@ def main():
 
     print("\n7. Composición")
     computer = Computer("Intel i7", "16 GB")
-    computer.show_specs()
+    for line in computer.show_specs():
+        print(line)
 
     print("\n8. Métodos especiales")
     product = Product("Curso de Python", 25000)
