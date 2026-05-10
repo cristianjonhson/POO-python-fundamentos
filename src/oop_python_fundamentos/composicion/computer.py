@@ -21,11 +21,14 @@ class Computer:
         self.processor = Processor(processor_model)
         self.memory = Memory(memory_size)
 
-    def show_specs(self) -> None:
-        print(f"Procesador: {self.processor.model}")
-        print(f"Memoria RAM: {self.memory.size}")
+    def show_specs(self) -> list[str]:
+        return [
+            f"Procesador: {self.processor.model}",
+            f"Memoria RAM: {self.memory.size}",
+        ]
 
 
 if __name__ == "__main__":
     computer = Computer("Intel i7", "16 GB")
-    computer.show_specs()
+    for line in computer.show_specs():
+        print(line)
