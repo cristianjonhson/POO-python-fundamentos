@@ -12,6 +12,7 @@ venv/
 # Pytest
 .pytest_cache/
 .coverage
+htmlcov/
 
 # IDEs
 .vscode/
