@@ -12,13 +12,10 @@ def test_computer_builds_composed_objects():
     assert computer.memory.size == "16 GB"
 
 
-def test_computer_show_specs_prints_expected_output(capsys):
+def test_computer_show_specs_returns_expected_output():
     computer = Computer("Intel i7", "16 GB")
 
-    computer.show_specs()
-
-    captured = capsys.readouterr()
-    output_lines = captured.out.strip().splitlines()
+    output_lines = computer.show_specs()
 
     assert output_lines == [
         "Procesador: Intel i7",
