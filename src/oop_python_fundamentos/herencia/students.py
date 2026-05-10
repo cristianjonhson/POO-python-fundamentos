@@ -14,11 +14,14 @@ class Student(Person):
         super().__init__(name)
         self.course = course
 
-    def show_info(self) -> None:
-        print(f"Estudiante: {self.name}")
-        print(f"Curso: {self.course}")
+    def show_info(self) -> list[str]:
+        return [
+            f"Estudiante: {self.name}",
+            f"Curso: {self.course}",
+        ]
 
 
 if __name__ == "__main__":
     student = Student("Ana", "Python")
-    student.show_info()
+    for line in student.show_info():
+        print(line)
