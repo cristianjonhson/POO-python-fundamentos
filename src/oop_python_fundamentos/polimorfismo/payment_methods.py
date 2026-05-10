@@ -6,23 +6,23 @@ class PaymentMethod:
     def __init__(self, amount: float):
         self.amount = amount
 
-    def pay(self) -> None:
-        print("Procesando pago genérico")
+    def pay(self) -> str:
+        return "Procesando pago genérico"
 
 
 class CreditCardPayment(PaymentMethod):
-    def pay(self) -> None:
-        print(f"Pago de ${self.amount} realizado con tarjeta de crédito")
+    def pay(self) -> str:
+        return f"Pago de ${self.amount} realizado con tarjeta de crédito"
 
 
 class PayPalPayment(PaymentMethod):
-    def pay(self) -> None:
-        print(f"Pago de ${self.amount} realizado con PayPal")
+    def pay(self) -> str:
+        return f"Pago de ${self.amount} realizado con PayPal"
 
 
 class BankTransferPayment(PaymentMethod):
-    def pay(self) -> None:
-        print(f"Pago de ${self.amount} realizado por transferencia bancaria")
+    def pay(self) -> str:
+        return f"Pago de ${self.amount} realizado por transferencia bancaria"
 
 
 if __name__ == "__main__":
@@ -33,4 +33,4 @@ if __name__ == "__main__":
     ]
 
     for payment in payments:
-        payment.pay()
+        print(payment.pay())
