@@ -11,13 +11,10 @@ def test_student_inherits_person_and_sets_attributes():
     assert student.course == "Python"
 
 
-def test_student_show_info_prints_expected_output(capsys):
+def test_student_show_info_returns_expected_lines():
     student = Student("Ana", "Python")
 
-    student.show_info()
-
-    captured = capsys.readouterr()
-    output_lines = captured.out.strip().splitlines()
+    output_lines = student.show_info()
 
     assert output_lines == [
         "Estudiante: Ana",
