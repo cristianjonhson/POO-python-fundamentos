@@ -3,6 +3,7 @@
 Este proyecto educativo está diseñado para aprender los fundamentos de POO en Python de forma progresiva.
 
 Incluye ejemplos guiados, ejercicios prácticos, comentarios explicativos en los módulos y pruebas automatizadas para reforzar cada concepto.
+Además, sigue un enfoque donde la lógica de dominio devuelve datos y la capa de ejecución (`main` y `run_all_examples`) se encarga de imprimir.
 
 ## Comandos rápidos
 
@@ -19,7 +20,7 @@ python -m pytest -q
 python -m pytest --cov=oop_python_fundamentos --cov-report=term-missing -q
 
 # Lint
-ruff check .
+python -m ruff check .
 ```
 
 ## Objetivo
@@ -83,8 +84,8 @@ oop-python-fundamentos/
 │       │   ├── __init__.py
 │       │   └── product.py
 │       └── polimorfismo/
-│       │   ├── __init__.py
-│       │   └── payment_methods.py
+│           ├── __init__.py
+│           └── payment_methods.py
 └── tests/
 │   ├── test_animals.py
 │   ├── test_bank_account.py
@@ -158,7 +159,7 @@ Actualmente, el conjunto de pruebas cubre:
 
 - Básicos (`Car`, `Person`)
 - Encapsulamiento (`BankAccount`, `ProductWithProperty`)
-- Herencia (`Animal`, `Dog`, `Cat`, `Student`)
+- Herencia (`Student` como ejemplo principal en los entrypoints y `Animal`, `Dog`, `Cat` en pruebas específicas)
 - Polimorfismo (`PaymentMethod` y subclases)
 - Abstracción (`CoffeeMachine`)
 - Composición (`Computer`, `Processor`, `Memory`)
@@ -171,10 +172,11 @@ Para estudiar el contenido de forma progresiva, revisa los archivos en este orde
 1. `src/oop_python_fundamentos/basicos/car.py`
 2. `src/oop_python_fundamentos/basicos/person.py`
 3. `src/oop_python_fundamentos/encapsulamiento/bank_account.py`
-4. `src/oop_python_fundamentos/herencia/animals.py`
-5. `src/oop_python_fundamentos/polimorfismo/payment_methods.py`
-6. `src/oop_python_fundamentos/abstraccion/coffee_machine.py`
-7. `src/oop_python_fundamentos/composicion/computer.py`
-8. `src/oop_python_fundamentos/metodos_especiales/product.py`
+4. `src/oop_python_fundamentos/herencia/students.py`
+5. `src/oop_python_fundamentos/herencia/animals.py`
+6. `src/oop_python_fundamentos/polimorfismo/payment_methods.py`
+7. `src/oop_python_fundamentos/abstraccion/coffee_machine.py`
+8. `src/oop_python_fundamentos/composicion/computer.py`
+9. `src/oop_python_fundamentos/metodos_especiales/product.py`
 
 Después, resuelve los ejercicios de la carpeta `exercises/`.
