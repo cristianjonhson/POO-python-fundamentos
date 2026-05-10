@@ -28,7 +28,8 @@ def run_all_examples():
     print(f"Saldo actual: {account.get_balance()}")
 
     student = Student("Ana", "Python")
-    student.show_info()
+    for line in student.show_info():
+        print(line)
 
     payments = [
         CreditCardPayment(10000),
@@ -37,14 +38,15 @@ def run_all_examples():
     ]
 
     for payment in payments:
-        payment.pay()
+        print(payment.pay())
 
     machine = CoffeeMachine()
     for step in machine.make_coffee():
         print(step)
 
     computer = Computer("Intel i7", "16 GB")
-    computer.show_specs()
+    for line in computer.show_specs():
+        print(line)
 
     product = Product("Curso de Python", 25000)
     print(product)
