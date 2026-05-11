@@ -1,4 +1,4 @@
-"""Ejemplo de composición donde una computadora contiene otras piezas."""
+"""Modulo educativo: ejemplo de composicion para una computadora."""
 
 class Processor:
     """Clase que representa un procesador."""
