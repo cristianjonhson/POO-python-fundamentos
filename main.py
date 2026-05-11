@@ -1,4 +1,4 @@
-"""Punto de entrada que recorre los ejemplos principales del proyecto."""
+"""Modulo educativo: ejecuta la demostracion principal de conceptos POO."""
 
 from src.oop_python_fundamentos.basicos.car import Car
 from src.oop_python_fundamentos.basicos.person import Person
