@@ -1,1 +1,1 @@
-"""Subpaquete con ejemplos básicos de clases y objetos."""
+"""Modulo educativo: subpaquete con ejemplos basicos de clases y objetos."""
