@@ -1,1 +1,1 @@
-"""Paquete educativo para estudiar Programación Orientada a Objetos en Python."""
+"""Modulo educativo: paquete base para estudiar POO en Python."""
