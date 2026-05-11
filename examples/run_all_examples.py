@@ -1,4 +1,4 @@
-"""Script auxiliar para ejecutar todos los ejemplos educativos en secuencia."""
+"""Modulo educativo: ejecuta todos los ejemplos del proyecto en secuencia."""
 
 from src.oop_python_fundamentos.basicos.car import Car
 from src.oop_python_fundamentos.basicos.person import Person
