@@ -1,4 +1,4 @@
-"""Modelo sencillo de persona para practicar creación de objetos."""
+"""Modulo educativo: modelo sencillo de persona para practicar objetos."""
 
 class Person:
     """Clase simple para representar una persona."""
