@@ -1,1 +1,1 @@
-"""Subpaquete con ejemplos de abstracción en POO."""
+"""Modulo educativo: subpaquete con ejemplos de abstraccion en POO."""
