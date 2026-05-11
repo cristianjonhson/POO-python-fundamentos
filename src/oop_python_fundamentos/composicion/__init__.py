@@ -1,1 +1,1 @@
-"""Subpaquete con ejemplos de composición entre objetos."""
+"""Modulo educativo: subpaquete con ejemplos de composicion entre objetos."""
