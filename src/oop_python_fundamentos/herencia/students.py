@@ -1,4 +1,4 @@
-"""Ejemplo de herencia entre una persona base y un estudiante."""
+"""Modulo educativo: ejemplo de herencia entre persona y estudiante."""
 
 class Person:
     """Clase padre."""
