@@ -1,4 +1,4 @@
-"""Colección de métodos de pago para ejemplificar comportamiento polimórfico."""
+"""Modulo educativo: metodos de pago para ejemplificar polimorfismo."""
 
 class PaymentMethod:
     """Clase base para explicar polimorfismo."""
