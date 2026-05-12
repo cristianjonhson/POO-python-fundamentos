@@ -1,4 +1,4 @@
-"""Jerarquía de animales para mostrar herencia y sobreescritura."""
+"""Modulo educativo: jerarquia de animales para mostrar herencia."""
 
 class Animal:
     """Clase padre para explicar herencia."""
