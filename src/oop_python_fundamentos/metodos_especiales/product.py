@@ -1,4 +1,4 @@
-"""Producto que demuestra cómo personalizar representación y comparación."""
+"""Modulo educativo: producto para personalizar representacion y comparacion."""
 
 class Product:
     """Clase para explicar métodos especiales como __str__ y __eq__."""
