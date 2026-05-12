@@ -1,4 +1,4 @@
-"""Pruebas para validar herencia y comportamiento de los animales."""
+"""Modulo de pruebas: valida herencia y comportamiento de animales."""
 
 from oop_python_fundamentos.herencia.animals import Animal, Dog, Cat
 
