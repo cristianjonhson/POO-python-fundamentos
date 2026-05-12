@@ -1,1 +1,1 @@
-"""Subpaquete con ejemplos de métodos especiales de Python."""
+"""Modulo educativo: subpaquete con ejemplos de metodos especiales."""
