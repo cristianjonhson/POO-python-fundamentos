@@ -1,4 +1,4 @@
-"""Pruebas para validar operaciones y reglas de negocio de BankAccount."""
+"""Modulo de pruebas: valida operaciones y reglas de BankAccount."""
 
 import pytest
 
