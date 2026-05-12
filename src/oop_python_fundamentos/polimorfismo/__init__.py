@@ -1,1 +1,1 @@
-"""Subpaquete con ejemplos de polimorfismo mediante una interfaz común."""
+"""Modulo educativo: subpaquete con ejemplos de polimorfismo."""
