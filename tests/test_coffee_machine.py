@@ -1,4 +1,4 @@
-"""Pruebas que verifican la secuencia de abstracción en CoffeeMachine."""
+"""Modulo de pruebas: valida la secuencia de abstraccion en CoffeeMachine."""
 
 from oop_python_fundamentos.abstraccion.coffee_machine import CoffeeMachine
 
