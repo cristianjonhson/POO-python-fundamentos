@@ -1,1 +1,1 @@
-"""Subpaquete con ejemplos de encapsulamiento y control de acceso."""
+"""Modulo educativo: subpaquete con ejemplos de encapsulamiento."""
