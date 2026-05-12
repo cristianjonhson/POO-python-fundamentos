@@ -1,1 +1,1 @@
-"""Subpaquete con ejemplos de herencia y reutilización entre clases."""
+"""Modulo educativo: subpaquete con ejemplos de herencia entre clases."""
