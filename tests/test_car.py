@@ -1,4 +1,4 @@
-"""Pruebas básicas para comprobar el modelo Car."""
+"""Modulo de pruebas: valida el comportamiento basico del modelo Car."""
 
 from oop_python_fundamentos.basicos.car import Car
 
