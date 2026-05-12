@@ -1,4 +1,4 @@
-"""Producto que usa propiedades para validar el acceso a su precio."""
+"""Modulo educativo: producto con propiedades para validar el precio."""
 
 class ProductWithProperty:
     """Clase para explicar el uso de @property y setters."""
