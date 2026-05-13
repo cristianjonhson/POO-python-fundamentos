@@ -1,4 +1,4 @@
-"""Pruebas mínimas para validar atributos del modelo Person."""
+"""Modulo de pruebas: valida atributos basicos del modelo Person."""
 
 from oop_python_fundamentos.basicos.person import Person
 
