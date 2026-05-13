@@ -1,4 +1,4 @@
-"""Pruebas para la validación del precio mediante propiedades."""
+"""Modulo de pruebas: valida la gestion de precio con propiedades."""
 
 import pytest
 
