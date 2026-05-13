@@ -1,4 +1,4 @@
-"""Pruebas para representación y comparación del modelo Product."""
+"""Modulo de pruebas: valida representacion y comparacion del modelo Product."""
 
 from oop_python_fundamentos.metodos_especiales.product import Product
 
